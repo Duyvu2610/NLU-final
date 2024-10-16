@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: profile-service
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: Duyvu.12
+server:
+  port: 9000
+  servlet:
+    context-path: /profile
+
+identity:
+  url: http://localhost:8080
+  clientId: mplatform
+  clientSecret: uGhqYBm0woDH9Y3Av0Nef4v4ik6vmbNN
